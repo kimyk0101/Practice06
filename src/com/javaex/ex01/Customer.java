@@ -26,7 +26,6 @@ public class Customer extends Person{
 	public void setPoint(int point) {
 		this.point = point;
 	}
-	
 	@Override
 	public void showInfo() {
 		System.out.println("#이름:" + name + ", #핸드폰:" +hp + ", #고객번호:" + cNo + ", #포인트점수:" + point);
