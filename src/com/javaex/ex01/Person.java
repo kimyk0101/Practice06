@@ -30,4 +30,5 @@ public class Person {
 	public void showInfo() {
 		System.out.println("#이름:" + name + ", #핸드폰:" +hp);
 	}
+	
 }
