@@ -10,6 +10,5 @@ public class PersonApp {
 		p.showInfo();
 		s.showInfo();
 	}
-
 }
 
