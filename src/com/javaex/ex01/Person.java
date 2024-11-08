@@ -1,9 +1,10 @@
 package com.javaex.ex01;
 
 public class Person {
+	//	필드
 	protected String name;
 	protected String hp;
-	
+	//	기본 생성자
 	public Person() {
 		
 	}
@@ -12,7 +13,7 @@ public class Person {
 		this.name = name;
 		this.hp = hp;
 	}
-	
+	//	Getters / Setters
 	public String getName() {
 		return name;
 	}
@@ -22,11 +23,11 @@ public class Person {
 	public String getHp() {
 		return hp;
 	}
-	public void setName(String hp) {
+	public void setHp(String hp) {
 		this.hp = hp;
 	}
-	
-	public void showinfo() {
-		System.out.println("#이름:" + name + "#핸드폰:" +hp);
+	//	기본 메서드
+	public void showInfo() {
+		System.out.println("#이름:" + name + ", #핸드폰:" +hp);
 	}
 }
