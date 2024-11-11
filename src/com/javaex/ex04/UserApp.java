@@ -9,20 +9,16 @@ public class UserApp {
 		Employee e = new Employee("master", "m7788", "운영자", 500);
 		
 		
-		User arr[] = new User[3];
-		
-	
-		for (int i = 0; i < arr.length; ++i) {
-			if (i == 0) {
-				c.showInfo();
-				} else if (i == 1) {
-					u.showInfo();
-				} else {
-					e.showInfo();
-				}
+		User arr[] = new User[] {c,u,e};
 			
+		for (int i = 0; i < arr.length; ++i) {
+			arr[i].showInfo();
+			
+			if (arr[i] == e) {
+				System.out.println("운영자의 월급은 " + e.salary*10000 + "원 입니다.");
+			}
 		}
-		System.out.println("운영자의 월급은 5000000원 입니다.");
+		
 	}
 
 }
