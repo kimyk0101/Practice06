@@ -11,11 +11,11 @@ public class Customer extends User {
 	public int getPoint() {
 		return point;
 	}
-	public int setPoint(int point) {
+	public void setPoint(int point) {
 		this.point = point;
 	}
 	
 	public void showInfo() {
-		System.out.println("#아이디:" + id + "#패스워드:" + password + "#이름:" + name + "#포인트:" + point);
+		System.out.println("#아이디:" + id + ", #패스워드:" + password + ", #이름:" + name + ", #포인트:" + point);
 }
 }

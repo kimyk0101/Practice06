@@ -37,7 +37,7 @@ public class User {
 	
 	//	메서드
 	public void showInfo() {
-		System.out.println("#아이디:" + id + "#패스워드:" + password + "#이름:" + name);
+		System.out.println("#아이디:" + id + ", #패스워드:" + password + ", #이름:" + name);
 	}
 	
 }

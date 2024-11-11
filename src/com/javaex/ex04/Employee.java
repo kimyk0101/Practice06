@@ -12,12 +12,12 @@ public class Employee extends User {
 	public int getSalary() {
 		return salary;
 	}
-	public int setSalary(int salary) {
+	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 	
 	public void showInfo() {
-		System.out.println("#아이디:" + id + "#패스워드:" + password + "#이름:" + name + "#월급:" + salary);
+		System.out.println("#아이디:" + id + ", #패스워드:" + password + ", #이름:" + name + ", #월급:" + salary);
 	}
 	
 }
