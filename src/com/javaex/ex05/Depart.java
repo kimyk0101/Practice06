@@ -19,7 +19,6 @@ public class Depart extends Employee {
 	
 	@Override
 	public void showInformation() {
-		super.showInformation();
-		System.out.println("부서:" + department);
+		System.out.println("이름:" + getName() + "연봉:" + getSalary() + "부서:" + department);
 	}	//	private이라 데이터를 가져올 수 없음
 }
