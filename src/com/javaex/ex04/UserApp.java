@@ -7,9 +7,9 @@ public class UserApp {
 		Customer c = new Customer("jws", "j1234", "정우성", 1000);
 		Customer u = new Customer("yjs", "y2345", "이효리", 2000);
 		Employee e = new Employee("master", "m7788", "운영자", 500);
-		
-		
+			
 		User arr[] = new User[] {c,u,e};
+		
 		int j = 0;	
 		
 		for (int i = 0; i < arr.length; ++i) {
